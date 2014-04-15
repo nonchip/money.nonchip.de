@@ -22,6 +22,7 @@
 
 </head>
 <body>
+<a href="http://github.com/nonchip/money.nonchip.de"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 <div id="layout">
 <a href="#menu" id="menuLink" class="menu-link">
     <span></span>
