@@ -164,6 +164,7 @@ if ( !class_exists( 'DB' ) ) {
             if ( $stmt->affected_rows ) {
                 return true;
             }
+            return false;
         }
         private function prep_query($data, $type='insert') {
             // Instantiate $fields and $placeholders for looping
