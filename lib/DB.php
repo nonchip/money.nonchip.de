@@ -205,5 +205,4 @@ if ( !class_exists( 'DB' ) ) {
 global $CFG;
 
 $DB = new DB($CFG['DB']['user'],$CFG['DB']['pass'],$CFG['DB']['db'],$CFG['DB']['host']);
-$DB = new DB($CFG['DB']['user'],$CFG['DB']['pass'],$CFG['DB']['db'],$CFG['DB']['host']);
 global $DB;
