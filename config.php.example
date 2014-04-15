@@ -1,0 +1,10 @@
+<?php
+$CFG=array(
+    'DB'=>array(
+        'user'=>'...',
+        'pass'=>'...',
+        'db'=>'...',
+        'host'=>'...'
+    )
+);
+global $CFG;
