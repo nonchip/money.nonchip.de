@@ -1,4 +1,8 @@
 RewriteEngine On
 RewriteBase /
+
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://money.nonchip.de/$1 [R,L]
+
 RewriteCond %{REQUEST_URI} !static
 RewriteRule ^ nwebfw.php [QSA,L]
